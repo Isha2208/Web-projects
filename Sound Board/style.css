@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;  
+    background-image: url('./Sound.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    background-color: rgba(224, 209, 142, 0.925);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
